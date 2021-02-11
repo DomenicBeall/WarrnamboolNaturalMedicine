@@ -8,40 +8,80 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dropdown.css">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5c8c766aa1.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-        <header class="container bg-fill text-center">
-            <h1>Warrnambool Natural Therapy</h1>
+        <header class="bg-fill">
+            <div style="width: 100%;">
+                <img class="logo" src="../Filler Photos/Warrnambool Natural Medice Centre Logo.jpg">
+                <h1 style="line-height: 7rem;">Warrnambool Natural Medicine Centre</h1>
+            </div>
+            
+            <div class="dropdown">
+                <i class="fas fa-bars dropbtn" style="color: black;" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
         </header>
 
-        <!-- Profiles -->
-        <div class="container">
-
+        <div class="container text-center">
+            <div class="center-card">
+                <p style="font-size: 5rem; padding-bottom: 2rem;"><b>About Us</b></p>
+                <h3>Warrnambool Natural Medicine Centre serves all its customers in Warrnambool VIC and all the surrounding areas.</h3>
+                <br>
+                <h3>We are an experienced team of practitioners with over 100 years combined experience. We are providers of Acupuncture, Bowen Therapy, Herbal Medicine and Naturopathy. It is a cost-effective complimentary Health Care. Rebates are available with Private Health Insurance.</h3>
+            </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="container bg-fill">
+        <div class="container bg-fill text-center wide">
+            <div class="profile-card">
+                <img src="../Filler Photos/Graham_Profile.jpg">
+                <div>
+                    <p><b><u>Graham Pennington</u></b></p>
+                    <p>For more than two decades, Graham Pennington has been practising Bowen therapy, naturopathy and acupuncture in his busy, multi-practitioner clinic in Warrnambool, Australia.</p>    
+                </div>
+            </div>
 
-        </footer>
-
-        <div class="container">
-
+            <div class="profile-card">
+                <img src="../Filler Photos/Kate_Profile.jpg">
+                <div>
+                    <p><b><u>Kate Pennington</u></b></p>
+                    <p>For more than two decades, Graham Pennington has been practising Bowen therapy, naturopathy and acupuncture in his busy, multi-practitioner clinic in Warrnambool, Australia.</p>    
+                </div>
+            </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="container bg-fill">
+        <div class="container text-center">
+            <div class="center-card book-card">
+                <div class="book">
+                    <img src="../Filler Photos/Bowen Book Photo.png">
+                    <div class="book-text"><b>Buy Here</b></div>
+                </div>
 
-        </footer>
-
-        <div class="container">
-
+                <div style="margin: auto;">
+                    <p>"Graham’s knowledge of Bowen is unquestionable and he presents it in a very concise way with great illustrations and a good indexing system.  I would recommend that every student and qualified practitioner read his view on the Bowen Technique – not only is it informative on many levels but it challenges opinion and allows for discussion."</p>
+                    <p><b>- BTPA Journal in the U.K. in 2013</b></p>
+                </div>
+            </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="container bg-fill">
+        <footer class="bg-fill text-center">
 
         </footer>
 
 </body>
+
+<script src="../js/index.js"></script>
 </html>

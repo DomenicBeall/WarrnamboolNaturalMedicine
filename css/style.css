@@ -1,3 +1,29 @@
+/* Remove all of the default padding */
+* { margin: 0; padding: 0; border: 0; outline: 0; }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../background.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .text-center {
     text-align: center;
+}
+
+.container {
+    height: 20%;
+}
+
+.bg-fill {
+    background: white;
+    color: black;
 }

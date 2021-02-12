@@ -26,10 +26,13 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 20rem;
+    min-width: 30rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     right: 0;
+    border: 2px rgb(90, 73, 60) solid;
+    border-right: none;
+    text-align: center;
   }
   
   /* Links inside the dropdown */

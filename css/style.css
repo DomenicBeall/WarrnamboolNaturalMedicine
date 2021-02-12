@@ -1,6 +1,6 @@
 /* Remove all of the default padding */
 * { 
-    margin: 0; 
+    margin: 0 ; 
     padding: 0; 
     border: 0; 
     outline: 0;     
@@ -10,6 +10,11 @@
     --secondarycolour: rgb(90, 73, 60);
 
     font-family: 'Lora', serif;
+}
+
+a {
+    color: var(--textcolour);
+    text-decoration: none; /* no underline */
 }
 
 body, html {
@@ -34,7 +39,7 @@ html {
     margin: auto;
 }
 
-.container {
+.custom-container {
     height: 25rem;
     border-bottom: 4px var(--secondarycolour) solid;
     color: var(--textcolour);
@@ -43,6 +48,17 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.fill-container {
+    height: 45rem;
+    border-bottom: 4px var(--secondarycolour) solid;
+    color: var(--textcolour);
+    padding-left: 22%;
+    padding-right: 22%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .wide {
     padding-left: 15%;
@@ -121,13 +137,6 @@ footer {
     margin-right: 150px;
 }
 
-.logo {
-    float: left;
-    height: 100%;
-    padding: 10px;
-    padding-left: 30px;
-}
-
 .profile-card {
     height: 50%;
     width: 50%;
@@ -148,4 +157,18 @@ footer {
     box-shadow: var(--secondarycolour) 0 0 15px;
     height: 12rem;
     float: left;
+}
+
+
+/* New Stuff */
+nav {
+    height: 7rem;
+    border-bottom: 8px var(--secondarycolour) solid;
+    box-shadow: var(--secondarycolour) 0 0 15px;
+}
+
+.logo {
+    height: 100%;
+    padding: 10px;
+    padding-left: 30px;
 }

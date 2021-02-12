@@ -12,8 +12,12 @@
     font-family: 'Lora', serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* Remove default hyperlink styling */
-a {
+a, a:hover, a:visited, a:focus {
     color: var(--textcolour);
     text-decoration: none;
 }
@@ -94,4 +98,18 @@ body {
 .footer-padding {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+}
+
+.footer-positioning {
+    position: relative;
+    margin-top: -74px; /* negative value of footer height */
+    clear:both;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+main {
+    overflow:auto;
 }

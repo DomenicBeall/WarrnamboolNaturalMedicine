@@ -57,11 +57,6 @@ body {
     margin-bottom: 20px;
 }
 
-.container-fluid {
-    border-top: 4px var(--secondarycolour) solid;
-    border-bottom: 4px var(--secondarycolour) solid;
-}
-
 .header {
     height: 10rem;
     line-height: 10rem;
@@ -75,11 +70,11 @@ body {
 }
 
 .border-bottom {
-    border-bottom: 8px var(--secondarycolour) solid;
+    border-bottom: 4px var(--secondarycolour) solid;
 }
 
 .border-top {
-    border-top: 8px var(--secondarycolour) solid;
+    border-top: 4px var(--secondarycolour) solid;
 }
 
 .bg-fill {
@@ -96,9 +91,7 @@ body {
 }
 
 
-
-
-footer {
-    height: 7rem;
-    border-top: 4px var(--secondarycolour) solid;
+.footer-padding {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }

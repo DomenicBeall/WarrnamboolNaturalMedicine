@@ -30,20 +30,18 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
     right: 0;
-    top: 11rem;
+    top: 10rem;
     border: 2px rgb(90, 73, 60) solid;
     border-right: none;
     text-align: center;
   }
 
   @media only screen and (max-width: 768px) {
-    
     .dropdown-content {
-      top: 22rem;
+      top: 20rem;
       width: 100%;
       border: 2px rgb(90, 73, 60) solid;
     }
-
   }
   
   /* Links inside the dropdown */
@@ -51,7 +49,7 @@
     color: black;
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 30px 10px;
   }
   
   /* Change color of dropdown links on hover */

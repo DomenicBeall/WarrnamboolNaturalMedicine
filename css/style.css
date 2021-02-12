@@ -12,16 +12,13 @@
     font-family: 'Lora', serif;
 }
 
+/* Remove default hyperlink styling */
 a {
     color: var(--textcolour);
-    text-decoration: none; /* no underline */
+    text-decoration: none;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
+/* Set page background */
 body {
     background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url("../background.jpg");
 
@@ -30,95 +27,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.text-center {
-    text-align: center;
-}
-
-.center-card {
-    margin: auto;
-}
-
-.fill-container {
-    height: 45rem;
-    border-bottom: 4px var(--secondarycolour) solid;
-    color: var(--textcolour);
-    padding-left: 22%;
-    padding-right: 22%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.wide {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-footer {
-    height: 7rem;
-    border-top: 4px var(--secondarycolour) solid;
-}
-
-.bg-fill {
-    background: white;
-    color: black;
-}
-
-.bg-fill-shadow {
-    box-shadow: 0px 10px 50px var(--secondarycolour), 0px -10px 50px var(--secondarycolour);
-}
-
-.book-card {
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-}
-
-.book img {
-    width: 250px;
-    margin: auto;
-    box-shadow: 5px 5px 10px var(--secondarycolour);
-    border-radius: 5px;
-    transition: all 0.25s;
-    margin-bottom: 20px;
-} 
-
-.book {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.book-text {
-    color: rgba(255, 255, 255, 0);
-    transition: all 0.25s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    margin: auto;
-    pointer-events: none;
-}
-
-.book-img:hover ~ .book-text {
-    color: white;
-}
-
-.book-img:hover {
-    transform: scale(1.05);
-    filter: brightness(25%);
-}
-
-.book-card > div {
-    margin: auto;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-
-/* New Stuff */
 
 .logo {
     height: 10rem;
@@ -146,7 +54,7 @@ footer {
 }
 
 .profile-text {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -172,4 +80,25 @@ footer {
 
 .border-top {
     border-top: 8px var(--secondarycolour) solid;
+}
+
+.bg-fill {
+    background: white;
+    color: black;
+}
+
+.bg-fill-shadow {
+    box-shadow: 0px 10px 50px var(--secondarycolour), 0px -10px 50px var(--secondarycolour);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+footer {
+    height: 7rem;
+    border-top: 4px var(--secondarycolour) solid;
 }

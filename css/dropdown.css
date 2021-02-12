@@ -9,7 +9,7 @@
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -28,19 +28,30 @@
     background-color: #f1f1f1;
     min-width: 30rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
     right: 0;
+    top: 11rem;
     border: 2px rgb(90, 73, 60) solid;
     border-right: none;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    
+    .dropdown-content {
+      top: 22rem;
+      width: 100%;
+      border: 2px rgb(90, 73, 60) solid;
+    }
+
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
+    padding: 10px;
   }
   
   /* Change color of dropdown links on hover */

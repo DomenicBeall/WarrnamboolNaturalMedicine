@@ -7,7 +7,7 @@
     box-sizing: border-box;
 
     --textcolour: rgb(24, 24, 24);
-    --secondarycolour: rgb(90, 73, 60);
+    --secondarycolour: #cb9b51;
 
     font-family: 'Lora', serif;
 }
@@ -23,13 +23,23 @@ a, a:hover, a:visited, a:focus {
 }
 
 /* Set page background */
-body {
-    background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url("../background.jpg");
+.background {
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("../assets/Clinic\ Front\ Full.jpg");
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    z-index: -2;
+
+    filter: blur(1px);
+
+    height: 100vh;
+    width: 100vw;
+
+    position:fixed;
+
 }
 
 .logo {
@@ -40,9 +50,13 @@ body {
     z-index: 1;
 }
 
+.navlist li {
+    display: inline;
+}
+
 .cont-padding-y {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .cont-padding-x {
@@ -57,8 +71,34 @@ body {
     height: 200px;
 }
 
+.title-padding {
+    height: 100vh;
+}
+
+.sub-text {
+    padding-top: 15%;
+    font-size: 2.5rem;
+}
+
+.text-outline {
+    
+}
+
+.gold {
+    color: rgb(241, 171, 65)
+}
+
+.title-text {
+    padding-top: 15%;
+    font-size: 5rem;
+}
+
 .profile-text {
     margin-bottom: 20px;
+}
+
+.text-white {
+    color: white;
 }
 
 .header {
@@ -87,7 +127,7 @@ body {
 }
 
 .bg-fill-shadow {
-    box-shadow: 0px 10px 50px var(--secondarycolour), 0px -10px 50px var(--secondarycolour);
+    box-shadow: 0px 10px 25px var(--secondarycolour), 0px -10px 25px var(--secondarycolour);
 }
 
 .text-center {

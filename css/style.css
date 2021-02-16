@@ -9,7 +9,7 @@
     --textcolour: rgb(24, 24, 24);
     --secondarycolour: #cb9b51;
 
-    font-family: 'Lora', serif;
+    font-family: 'Oswald', serif;
 }
 
 html, body {
@@ -94,6 +94,7 @@ a, a:hover, a:visited, a:focus {
 .title-text {
     padding-top: 20%;
     font-size: 5rem;
+    font-weight: 700;
 }
 
 .profile-title {

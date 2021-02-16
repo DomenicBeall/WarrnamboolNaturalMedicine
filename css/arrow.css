@@ -55,10 +55,6 @@
   }
 }
 
-body {
-  background: black;
-}
-
 .arrow {
   position: fixed;
   bottom: 20px;

@@ -22,6 +22,12 @@ a, a:hover, a:visited, a:focus {
     text-decoration: none;
 }
 
+.gold, .gold:hover, .gold:visited, .gold:focus {
+    color: var(--secondarycolour);
+    text-decoration: none;
+}
+
+
 /* Set page background */
 .background {
     background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("../assets/Clinic\ Front\ Full.jpg");
@@ -85,6 +91,10 @@ a, a:hover, a:visited, a:focus {
 
 .text-outline {
     
+}
+
+.gold {
+    color: rgb(241, 171, 65)
 }
 
 .gold {

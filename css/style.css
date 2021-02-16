@@ -22,7 +22,7 @@ a, a:hover, a:visited, a:focus {
     text-decoration: none;
 }
 
-.gold, .gold:hover, .gold:visited, .gold:focus {
+a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
     color: var(--secondarycolour);
     text-decoration: none;
 }

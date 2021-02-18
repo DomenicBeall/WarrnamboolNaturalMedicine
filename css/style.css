@@ -6,14 +6,16 @@
     outline: 0;     
     box-sizing: border-box;
 
-    --textcolour: rgb(24, 24, 24);
+    --textcolour: rgb(5, 5, 5);
     --secondarycolour: #cb9b51;
+    --backgroundcolour: #cb9b5160;
 
-    font-family: 'Oswald', serif;
+    font-family: serif;
 }
 
 html, body {
     height: 100%;
+    color: var(--textcolour);
 }
 
 /* Remove default hyperlink styling */
@@ -27,11 +29,21 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
     text-decoration: none;
 }
 
+.bg-gold {
+    background-color: var(--backgroundcolour);
+}
 
 /* Set page background */
-.background {
+.bg-img-front {
     background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("../assets/Clinic\ Front\ Full.jpg");
+}
 
+.bg-img-office {
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("../assets/Office.jpg");
+}
+
+
+.background {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +51,7 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 
     z-index: -2;
 
-    filter: blur(2px);
+    filter: blur(5px);
 
     height: 100vh;
     width: 100vw;
@@ -74,7 +86,6 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
     border-radius: 200px; border: 3px var(--secondarycolour) solid;
     box-shadow: var(--secondarycolour) 0 0 15px;
     margin-bottom: 10px;
-    height: 200px;
 }
 
 .title-padding {
@@ -87,14 +98,6 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 
 .top-padding {
     padding-top: 150px;
-}
-
-.text-outline {
-    
-}
-
-.gold {
-    color: rgb(241, 171, 65)
 }
 
 .gold {
@@ -157,12 +160,6 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
     padding-bottom: 2.5rem;
 }
 
-.footer-positioning {
-    position: relative;
-    margin-top: -74px; /* negative value of footer height */
-    clear:both;
-}
-
 .wrapper {
     min-height: 100%;
 }
@@ -171,18 +168,25 @@ main {
     overflow:auto;
 }
 
-.title {
+/* New stuff */
+.page-title {
+    font-size: 5rem;
+}
+
+.page-subheading {
+    font-size: 2.5rem;
+}
+
+.page-content {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
-    .title {
-        font-size: 1rem;
+@media only screen and (min-width: 1000px) {
+
+    .footer-positioning {
+        position: relative;
+        margin-top: -112px; /* negative value of footer height */
+        clear:both;
     }
 
-    .logo {
-        height: 10rem;
-        padding: 10px;
-        padding-left: 30px;
-    }
 }

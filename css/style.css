@@ -86,6 +86,8 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
     border-radius: 200px; border: 3px var(--secondarycolour) solid;
     box-shadow: var(--secondarycolour) 0 0 15px;
     margin-bottom: 10px;
+    display: block;
+    margin: auto;
 }
 
 .title-padding {

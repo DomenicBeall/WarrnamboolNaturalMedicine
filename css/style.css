@@ -84,6 +84,7 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 
 .map {
     margin-top: 20px;
+    width: 75%;
 }
 
 .profile-img {
@@ -221,6 +222,10 @@ main {
     .profile-img {
         width: 100%;
         height: 100%;
+    }
+
+    .map {
+        width: 100%;
     }
 
 }

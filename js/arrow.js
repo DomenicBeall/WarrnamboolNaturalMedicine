@@ -1,3 +1,5 @@
+faded = false;
+
 document.addEventListener('scroll', function(e) {
   if (!faded) {
     fade(document.getElementById("arrow"));

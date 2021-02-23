@@ -6,7 +6,7 @@
     outline: 0;     
     box-sizing: border-box;
 
-    --textcolour: rgb(5, 5, 5);
+    --textcolour: rgb(29, 29, 29);
     --secondarycolour: #cb9b51;
     --backgroundcolour: #cb9b5160;
 
@@ -51,7 +51,7 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 
     z-index: -2;
 
-    filter: blur(5px);
+    filter: blur(3px);
 
     height: 100vh;
     width: 100vw;
@@ -113,11 +113,14 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 }
 
 .profile-title {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .profile-text {
     margin-bottom: 20px;
+    font-size: 1.75rem;
 }
 
 .text-white {
@@ -142,6 +145,14 @@ a.gold, a.gold:hover, a.gold:visited, a.gold:focus {
 
 .border-top {
     border-top: 4px var(--secondarycolour) solid;
+}
+
+.big-font {
+    font-size: larger;
+}
+
+.faded-white-bg {
+    background: rgba(255, 255, 255, 0.411);
 }
 
 .bg-fill {
